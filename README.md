@@ -8,6 +8,21 @@ https://book.cakephp.org/3/en/development/testing.html#running-tests
 
 # FAQ
 
+Como alterar a versão do PHP ?
+
+* Ir nas varíaveis de ambiente do windows
+* alterar o path = caminho do xampp do seu php (exemplo: D:\xampp\php)
+* reiniciar o console, e executar o comando: php -v
+
+Resultado:
+
+$ php -v
+PHP 7.3.9 (cli) (built: Aug 28 2019 09:28:48) ( ZTS MSVC15 (Visual C++ 2017) x64 )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.3.9, Copyright (c) 1998-2018 Zend Technologies
+
+---
+
 Como clonar num diretório cheio ?
 
 * cd /diretorio_cheio

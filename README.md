@@ -10,9 +10,9 @@ https://book.cakephp.org/3/en/development/testing.html#running-tests
 
 Como clonar num diretório cheio ?
 
-$ cd /diretorio_cheio
-$ git init
-$ git remote add origin path_seu_git
-$ git add .
-$ git commit -am 'primeiro commit'
-$ git push -u origin master
+* cd /diretorio_cheio
+* git init
+* git remote add origin path_seu_git
+* git add .
+* git commit -am 'primeiro commit'
+* git push -u origin master

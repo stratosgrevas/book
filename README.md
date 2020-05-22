@@ -16,3 +16,19 @@ Como clonar num diretório cheio ?
 * git add .
 * git commit -am 'primeiro commit'
 * git push -u origin master
+
+Como criar um projeto cakephp 3 na linha de comando ?
+
+* composer create-project --prefer-dist cakephp/app:^3.8 nome_do_projeto
+
+Como rodar o cake bake na linha de comando (cakephp 3) ?
+
+* crie o banco de dados
+* configure o /app/config/app.php com o banco de dados
+* cd na pasta /bin do projeto
+* ./cake bake all nome_da_tabela
+
+Como rodar os testes unitários na linha de comando (cakephp 3) ?
+
+* cd diretorio do projeto
+* vendor/bin/phpunit

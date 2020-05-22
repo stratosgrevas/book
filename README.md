@@ -32,3 +32,14 @@ Como rodar os testes unitários na linha de comando (cakephp 3) ?
 
 * cd diretorio do projeto
 * vendor/bin/phpunit
+
+Resultado dos testes:
+
+PHPUnit 5.7.27 by Sebastian Bergmann and contributors.
+
+...IIIII.....II                                                  15 / 15 (100%)
+
+Time: 7.73 seconds, Memory: 15.00MB
+
+OK, but incomplete, skipped, or risky tests!
+Tests: 15, Assertions: 21, Incomplete: 7.

@@ -43,3 +43,33 @@ Time: 7.73 seconds, Memory: 15.00MB
 
 OK, but incomplete, skipped, or risky tests!
 Tests: 15, Assertions: 21, Incomplete: 7.
+
+
+
+Como executar o coverage ?
+
+* phpunit --coverage-html webroot/coverage tests/TestCase/Model/Table/ArticlesTableTest
+
+Alguns erros podem ocorrer e será necessário executar com o comando:
+
+* ./vendor/bin/phpunit --coverage-html webroot/coverage tests/TestCase
+
+Para instalar ou atualizar o PHPUNIT:
+
+* https://phpunit.de/getting-started/phpunit-5.html
+* composer require --dev phpunit/phpunit ^5
+* ./vendor/bin/phpunit --version
+
+Será necessário instalar o XDEBUG:
+
+$ ./vendor/bin/phpunit --coverage-html webroot/coverage tests/TestCase
+PHPUnit 5.7.27 by Sebastian Bergmann and contributors.
+
+Error:         No code coverage driver is available
+
+Site para instalação do XDEBUG:
+
+* https://xdebug.org/docs/install
+
+
+https://phpunit.de/getting-started/phpunit-5.html
